@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "name": "nobreak-labs/ubuntu-24.04",
+  "latest": "24.04.4-20260907.1",
+  "versions": [
+    {
+      "version": "24.04.4-20260907.1",
+      "os_version": "24.04.4",
+      "released_at": "2026-09-07T03:43:18Z"
+    }
+  ]
+}

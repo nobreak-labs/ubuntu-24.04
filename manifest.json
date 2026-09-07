@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "name": "nobreak-labs/ubuntu-24.04",
+  "version": "24.04.4-20260907.1",
+  "os": {
+    "name": "ubuntu",
+    "series": "24.04",
+    "version": "24.04.4"
+  },
+  "provider": "vmware_desktop",
+  "builder": {
+    "repository": "nobreak-labs/vm-image-builder",
+    "commit": "73e8bacb2eeb80795d8c9c5004cbb14042bc681f",
+    "packer_version": "1.16.0",
+    "vmware_plugin_version": "2.1.6"
+  },
+  "created_at": "2026-09-07T03:43:18Z",
+  "artifacts": [
+    {
+      "architecture": "amd64",
+      "filename": "ubuntu-24.04.4-20260907.1-vmware-desktop-amd64.tar.gz",
+      "url": "https://github.com/nobreak-labs/ubuntu-24.04/releases/download/24.04.4-20260907.1/ubuntu-24.04.4-20260907.1-vmware-desktop-amd64.tar.gz",
+      "format": "tar.gz",
+      "size": 636773134,
+      "sha256": "3ed4311eea50f72581fffeb6653e5320e537a0954c5b8d68e28ef0e790078db6",
+      "built_at": "2026-09-07T03:21:22Z",
+      "source_iso": {
+        "url": "https://releases.ubuntu.com/24.04/ubuntu-24.04.4-live-server-amd64.iso",
+        "checksum_source": "file:https://releases.ubuntu.com/24.04/SHA256SUMS"
+      }
+    },
+    {
+      "architecture": "arm64",
+      "filename": "ubuntu-24.04.4-20260907.1-vmware-desktop-arm64.tar.gz",
+      "url": "https://github.com/nobreak-labs/ubuntu-24.04/releases/download/24.04.4-20260907.1/ubuntu-24.04.4-20260907.1-vmware-desktop-arm64.tar.gz",
+      "format": "tar.gz",
+      "size": 721021446,
+      "sha256": "80c1ef1d82d484e0669496c57e9f74f353906cb445fe06d2cf5dc47919824b6b",
+      "built_at": "2026-09-07T01:13:19Z",
+      "source_iso": {
+        "url": "https://cdimage.ubuntu.com/ubuntu/releases/noble/release/ubuntu-24.04.4-live-server-arm64.iso",
+        "checksum_source": "file:https://cdimage.ubuntu.com/ubuntu/releases/noble/release/SHA256SUMS"
+      }
+    }
+  ]
+}
