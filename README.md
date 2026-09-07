@@ -2,8 +2,6 @@
 
 Ubuntu 24.04 시리즈의 VMware Desktop VM 이미지를 배포하는 저장소입니다. 이미지는 `nobreak-labs/vm-image-builder`(비공개)에서 Packer로 빌드하며, amd64와 arm64를 함께 제공합니다.
 
-현재 대상 버전: 24.04.4
-
 ## 버전 확인
 
 | 파일 | 내용 |
