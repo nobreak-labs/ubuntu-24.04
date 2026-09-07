@@ -1,5 +1,10 @@
 # ubuntu-24.04
 
+[![latest](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fnobreak-labs%2Fubuntu-24.04%2Fmain%2Findex.json&query=%24.latest&label=latest&color=blue)](https://github.com/nobreak-labs/ubuntu-24.04/releases/latest)
+[![release date](https://img.shields.io/github/release-date/nobreak-labs/ubuntu-24.04)](https://github.com/nobreak-labs/ubuntu-24.04/releases/latest)
+[![downloads](https://img.shields.io/github/downloads/nobreak-labs/ubuntu-24.04/total)](https://github.com/nobreak-labs/ubuntu-24.04/releases)
+![arch](https://img.shields.io/badge/arch-amd64%20%7C%20arm64-blue)
+
 Ubuntu 24.04 시리즈의 VMware Desktop VM 이미지를 배포하는 저장소입니다. 이미지는 `nobreak-labs/vm-image-builder`(비공개)에서 Packer로 빌드하며, amd64와 arm64를 함께 제공합니다.
 
 ## 버전 확인
